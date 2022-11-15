@@ -1,0 +1,150 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.main-head{
+    position: relative;
+}
+/* .nav-list{
+    
+} */
+.icon-circle{
+    background-color: rgb(85, 85, 85);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color:white;
+    display: none;
+    padding-top: 10px;
+    position:fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 10;
+}
+.icon-circle1{
+    background-color: rgb(7, 212, 212);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color:white;
+    display: none;
+    padding: 15px;
+    position:fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 10;
+}
+.icon-circle2{
+    background-color: rgb(7, 212, 212);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color:white;
+    display: none;
+    padding: 15px;
+    position:fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 10;
+}
+.icon-circle3{
+    background-color: rgb(7, 212, 212);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color:white;
+    display: none;
+    padding: 15px;
+    position:fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 10;
+}
+.icon-circle4{
+    background-color: rgb(7, 212, 212);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color:white;
+    display: none;
+    padding: 15px;
+    position:fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 10;
+}
+.menubar{
+   font-size: 40px
+}
+/* .nav-list:hover .icon-circle{
+    box-shadow: 0px 4px 3px rgb(65, 64, 64);
+} */
+.main{
+    height: fit-content;
+    width: 65%;
+    box-shadow: 0px 0px 10px rgb(129, 129, 129);
+    overflow: hidden;
+}
+.person-side{
+    background-color: rgb(235, 235, 235);
+}
+.professional-side{
+    box-shadow: 0px 0px 1px black;
+}
+.social-link{
+    text-decoration: none;
+    color: black;
+}
+.star{
+    letter-spacing: 5px;
+}
+.accordion-item{
+    background-color: rgb(179, 179, 179);
+    color:white;
+    
+}
+.accordion-button:not(.collapsed){
+    color:white;
+    background-color: transparent;
+} 
+.accordion-button.collapsed{
+    background-color: rgb(235, 235, 235);
+} 
+.accordion-button:focus{
+    box-shadow: none;
+}
+.circle{
+    height:20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin:0px 5px;
+}
+.line{
+    height:150px;
+    width: 5px;
+    background-color: black;
+    margin-left: 13px;
+}
+@media screen and (max-width:425px) {
+    .main{
+        height: fit-content;
+        width: 100%;
+    }
+    .icon-circle,.icon-circle1,.icon-circle2,.icon-circle3,.icon-circle4{
+        display: block;
+    }
+    .person-side{
+        padding-top: 150px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    h5{
+        font-size: 23px;
+    }
+}
