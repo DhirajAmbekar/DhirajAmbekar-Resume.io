@@ -98,6 +98,7 @@
 .social-link{
     text-decoration: none;
     color: black;
+    text-shadow: 0px 2px 1px rgb(184, 184, 181);
 }
 .star{
     letter-spacing: 5px;
@@ -130,6 +131,9 @@
     background-color: black;
     margin-left: 13px;
 }
+.down-btn{
+    display: none;
+ }
 @media screen and (max-width:425px) {
     .main{
         height: fit-content;
@@ -139,7 +143,7 @@
         display: block;
     }
     .person-side{
-        padding-top: 75px;
+        padding-top: 70px;
     }
     h4{
         font-size: 30px;
@@ -147,4 +151,23 @@
     h5{
         font-size: 23px;
     }
+    .dow-btn{
+       display: none;
+    }
+    .down-btn{
+        display: block;
+        margin: auto;
+        border: none;
+        background-color: rgb(10, 10, 255);
+        padding: 10px 20px;
+        
+     }
+     .down-btn:hover{
+        box-shadow: 0px 3px 1px rgb(114, 114, 114);
+     }
+     .down-btn a{
+        color: white;
+        text-decoration: none;
+     }
+
 }
