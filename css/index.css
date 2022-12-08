@@ -77,76 +77,7 @@
     right: 20px;
     z-index: 10;
 }
-.posdata1{
-    position: absolute;
-    right: 50px;
-    top: 20px;
-    background-color: rgb(7, 212, 212);
-    border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;
 
-    color: white;
-    overflow: hidden;
-    width: 0;
-    transition: width .1s;
- }
- 
- .posdata2{
-    position: absolute;
-    right: 50px;
-    top: 20px;
-    background-color: rgb(7, 212, 212);
-    border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;
-
-    color: white;
-    overflow: hidden;
-    width: 0;
-    transition: width .1s;
- }
- .posdata3{
-    position: absolute;
-    right: 50px;
-    top: 20px;
-    background-color: rgb(7, 212, 212);
-    border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;
-
-    color: white;
-    overflow: hidden;
-    width: 0;
-    transition: width .1s;
- }
- .posdata4{
-    position: absolute;
-    right: 50px;
-    top: 20px;
-    background-color: rgb(7, 212, 212);
-    border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;
-    color: white;
-    overflow: hidden;
-    width: 0;
-    transition: width .1s;
-    
- }
- .icon-circle1:hover .posdata4{
-    width: 60px;
-   
- }
- .icon-circle2:hover .posdata3{
-    width: 80px;
-   
- }
- .icon-circle3:hover .posdata2{
-    width: 100px;
-   
- }
- 
- .icon-circle4:hover .posdata1{
-    width: 60px;
-   
- }
  .dotin{
     font-size: 20px;
     margin: 3px 4px;
